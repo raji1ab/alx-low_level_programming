@@ -2,7 +2,7 @@
 /**
  * main - Entry point
  *
- * Return: programming is a multilingual puzzle 
+ * Return: 0 after printing function 
  */
 int main(void)
 {
