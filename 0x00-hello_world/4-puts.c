@@ -1,7 +1,8 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * my first C program
+ *
+ * Return: programming is a multilingual puzzle 
  */
 int main(void)
 {
