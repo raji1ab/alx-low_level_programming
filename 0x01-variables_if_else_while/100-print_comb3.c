@@ -15,7 +15,7 @@ if (a < b)
 {
 putchar(a);
 putchar(b);
-if (b == 57)
+if (a == 56 && b == 57)
 {
 break;
 }
