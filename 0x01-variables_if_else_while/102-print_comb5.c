@@ -33,7 +33,7 @@ if ((a + b) < (c + d) && a <= c)
 }
 }
 {
-	putchar('\n')
+	putchar('\n');
 }
 return (0);
 }
