@@ -21,7 +21,8 @@ break;
 }
 putchar(',');
 putchar(' ');
-else if (a == b)
+}
+if (a == b)
 {
 continue;
 }
