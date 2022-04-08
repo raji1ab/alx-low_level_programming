@@ -8,8 +8,9 @@ int main(void)
 {
 	int a, b;
 
-for (a = 48, b = 48; a <= 57, b <= 57; a++, b++)
+for (a = 48; a <= 57; a++)
 {
+for (b = 48; b <= 57; b++)
 if (a < b)
 {
 putchar(a);
@@ -23,6 +24,7 @@ break;
 else if (a == b)
 {
 continue;
+}
 }
 }
 {
