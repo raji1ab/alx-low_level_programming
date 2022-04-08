@@ -27,9 +27,9 @@ if (a == b)
 continue;
 }
 }
-}
 {
 putchar('\n');
 }
+
 return (0);
 }
