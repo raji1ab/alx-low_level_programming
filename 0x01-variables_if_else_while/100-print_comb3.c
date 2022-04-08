@@ -15,12 +15,12 @@ if (a < b)
 {
 putchar(a);
 putchar(b);
-putchar(',');
-putchar(' ');
 if (b == 57)
 {
 break;
 }
+putchar(',');
+putchar(' ');
 else if (a == b)
 {
 continue;
