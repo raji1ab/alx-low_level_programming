@@ -8,11 +8,13 @@ int main(void)
 {
 	char g;
 
-	for (int g = 'A'; g <= 'Z'; ++g)
+	for (int g = 'a'; g <= 'z'; g++)
 	{
-		int lower_g = tolower(g);
-
-		putchar(lower_g);
+		putchar(g);
 	}
+	{
+		putchar('\n');
+	}
+
 return (0);
 }
