@@ -8,14 +8,13 @@ int main(void)
 {
 	char g;
 
-for (g == 'a'; g <= 'z'; g++)
+for (g = 'a'; g <= 'z'; g++)
 {
-	if (g == 'e')
-		continue;
-	else if (g == 'q')
-		continue;
-	else
-		putchar(g);
+if (g == 'e')
+	continue;
+else if (g == 'q')
+	continue;
+putchar(g);
 }
 {
 	putchar('\n');
