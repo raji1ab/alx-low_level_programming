@@ -19,13 +19,13 @@ void print_alphabet_x10(void)
 		for ('r' = 'a'; 'r' <= 'z'; r++)
 	{
 
-			_putchar('r');
+			_putchar ('r');
 	}
 
 
 	num++;
 
-	_putchar('\n');
+	_putchar ('\n');
 	}
 
 	return (0);
