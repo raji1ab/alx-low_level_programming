@@ -20,4 +20,6 @@ int print_last_digit(int n)
 		return (lastdigit);
 	}
 
+	return (0);
+
 }
