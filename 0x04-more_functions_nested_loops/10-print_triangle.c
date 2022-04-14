@@ -12,6 +12,10 @@ if (size > 0)
 {
 for (i = 1; i <= size; i++)
 {
+for (j = i; j < size; j++)
+{
+_puchar(' ');
+}
 for (j = 1; j <= i; j++)
 {
 _putchar(35);
