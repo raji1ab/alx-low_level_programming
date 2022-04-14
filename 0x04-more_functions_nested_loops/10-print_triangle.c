@@ -14,7 +14,7 @@ for (i = 1; i <= size; i++)
 {
 for (j = i; j < size; j++)
 {
-_puchar(' ');
+_puchar(32);
 }
 for (j = 1; j <= i; j++)
 {
