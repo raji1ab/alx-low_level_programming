@@ -14,17 +14,17 @@ for (i = 1; i <= size; i++)
 {
 for (j = i; j < size; j++)
 {
-_puchar(32);
+_puchar(' ');
 }
 for (j = 1; j <= i; j++)
 {
-_putchar(35);
+_putchar('#');
 }
-_putchar(10);
+_putchar('\n');
 }
 }
 else
 {
-_putchar(10);
+_putchar('\n');
 }
 }
