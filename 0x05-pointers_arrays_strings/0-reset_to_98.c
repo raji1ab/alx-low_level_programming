@@ -11,6 +11,7 @@ void reset_to_98(int *n)
 
 	n = &b;
 
-	*n = 'b';
-	_putchar(b);
+	*n = 98;
+	_putchar('b');
+	_putchar('\n');
 }
