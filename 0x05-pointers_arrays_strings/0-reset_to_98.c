@@ -7,10 +7,10 @@
  */
 void reset_to_98(int *n)
 {
-	int a;
+	int b;
 
-	n = &a;
+	n = &b;
 
 	*n = 98;
-	_putchar('a');
+	_putchar(b);
 }
