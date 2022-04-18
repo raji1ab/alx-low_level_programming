@@ -3,7 +3,7 @@
  * _atoi - function that converts string to an integer
  *
  * @s: string to be converted
- * Return: 0
+ * Return: integer
  */
 int _atoi(char *s)
 {
@@ -15,6 +15,11 @@ int _atoi(char *s)
 	{
 		if (s[i] == '-')
 			sign *= -1;
+		i++;
+	}
+	while (s[i] <= '9' && (s[i] >= '0' && s[i] != '\0'))
+	{
+		res = (res * 10) + (s[i] - '0');
 		i++;
 	}
 	res *= sign;
