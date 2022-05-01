@@ -5,7 +5,7 @@
  * _isnumber - checks if string is a number
  * @s: string
  *
- * Return: 1 on success
+ * Return: On success 1.
  * If not a number, 0 is returned.
  */
 int _isnumber(char *s)
